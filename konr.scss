@@ -1,0 +1,8 @@
+@use "abstractClass";
+
+
+//no override
+.button {
+  color: abstractClass.$primaryColor;
+  padding: 5px + abstractClass.$radius;
+}

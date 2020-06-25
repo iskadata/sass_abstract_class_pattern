@@ -1,0 +1,8 @@
+@use 'abstractClass' with(
+  $primaryColor: 'green' //override defualt color
+);
+
+.button {
+    color: abstractClass.$primaryColor;
+    padding: 5px + abstractClass.$radius;
+  }
